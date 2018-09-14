@@ -1,0 +1,95 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "simple skill",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "RandomNumber",
+                    "slots": [
+                        {
+                            "name": "low",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "high",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "a random number greater than {low} and less than {high}",
+                        "a number between {low} and {high}",
+                        "a number",
+                        "a random number between {low} and {high}",
+                        "a random number"
+                    ]
+                },
+                {
+                    "name": "Arithmetic",
+                    "slots": [
+                        {
+                            "name": "numberOne",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "numberTwo",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "operation",
+                            "type": "Operation"
+                        }
+                    ],
+                    "samples": [
+                        "{operation} {numberOne} and {numberTwo}",
+                        "to {operation} {numberOne} and {numberTwo}"
+                    ]
+                },
+                {
+                    "name": "Answer",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{number}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Operation",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "multiply"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "add"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

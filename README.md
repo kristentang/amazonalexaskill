@@ -1,5 +1,5 @@
 # Amazon Alexa Skill
-Program in Computing 16: Python with Applications\ 
+Program in Computing 16: Python with Applications\
 Professor Matt Haberland\
 Homework Assignmnet\
 May 2018

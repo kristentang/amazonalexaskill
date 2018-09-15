@@ -10,6 +10,7 @@ The .py file containes the Amazon Web Services (AWS) Lambda Function for cloud-b
 
 <center>
 <img src = "https://kristentang.github.io/photos/alexa1.jpg" width = 75%>
-<img src = "https://kristentang.github.io/photos/alexa2.jpg" width = 75%>
+ </center>
+<img src = "https://kristentang.github.io/photos/alexa2.jpg" width = 75% textalign = center>
 <img src = "https://kristentang.github.io/photos/alexa3.jpg" width = 75%>
-</center>
+
